@@ -25,6 +25,6 @@ vector<string> otecpp_lajitellut::lajitellut(unsigned int lkm, char *mjt[])
     }
   }
   return t;
-};
+}
 
 
