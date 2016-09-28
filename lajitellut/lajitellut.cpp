@@ -7,14 +7,15 @@ vector<string> otecpp_lajitellut::lajitellut(unsigned int lkm, char *mjt[])
 {
   /* Laitetaan parametrit vector-taulukkoon */
   vector<string> t;
-  for (int i = 0; i < lkm; i++) {
+  for (unsigned int i = 0; i < lkm; i++) {
     t.push_back(mjt[i]);
   }
 
   /* Lajittelualgoritmi */
   string temp;
-  int j;
-  for (int i = 0; i < t.size(); i++){
+  unsigned int j;
+  unsigned int koko = t.size();
+  for (unsigned int i = 0; i < koko; i++){
     j = i;
     while (j > 0 && t[j] < t[j-1]){
       temp = t[j];
