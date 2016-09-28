@@ -1,9 +1,13 @@
 #ifndef LAJITELLUT_H
 #define LAJITELLUT_H
 
+#include <iostream>
+#include <string>
+#include <vector>
+
 namespace otecpp_lajitellut
 {
-    vector<string> lajitellut(unsigned int lkm, char *mjt[]);
+  std::vector<std::string> lajitellut(unsigned int lkm, char *mjt[]);
 }
 
 #endif
