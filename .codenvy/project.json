@@ -1,0 +1,1 @@
+{"mixinTypes":["contribution"],"builders":{"configs":{}},"runners":{"configs":{"project:/Copy%20of%20C":{"ram":1000,"variables":{"configurationType":"cpp"},"options":{}},"project:/ENV1-otecpp-joufa":{"ram":1000,"variables":{"configurationType":"cpp"},"options":{}}}},"type":"cpp","attributes":{"language":["cpp"]}}
